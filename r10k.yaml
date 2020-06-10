@@ -1,0 +1,11 @@
+sources:
+  main:
+    # r10k control repository
+    remote: 'https://github.com/Grindiron/puppet-environments.git'
+
+    # Install directory
+    basedir: '/etc/puppet/code/environments'
+
+forge:
+  # IPv4 & IPv6 domain
+  baseurl: 'https://forgeapi-cdn.puppet.com'
